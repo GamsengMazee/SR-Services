@@ -1,0 +1,33 @@
+.section2{
+    margin-top: 15px;
+}
+.headerText{
+    text-align: center;
+    color: rgba(221, 78, 78, 0.89);
+    font-weight: bold;
+    font-size: calc(2rem + 2vw);
+}
+.info{
+    text-align: center;
+    color: rgb(28, 108, 108);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.title{
+    text-align: center;
+    margin-top: 5px;
+    color:  rgb(28, 108, 108);
+    font-weight: bold;
+}
+.detail{
+    margin-top: 10px;
+    text-align: center;
+    color:  rgb(28, 108, 108);
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+}

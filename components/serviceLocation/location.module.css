@@ -1,0 +1,8 @@
+.header{
+    color: rgba(221, 78, 78, 0.89);
+}
+.listItems li{
+    list-style: circle;
+    font-size: 14px;
+    color: rgb(28, 108, 108);
+  }

@@ -1,0 +1,33 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    font-family: var(--fontFam2);
+    font-weight: bold;
+    color: rgb(53, 53, 52);
+}
+.card:hover{
+    background-color: rgba(144, 195, 252, 0.24);
+    cursor: pointer;
+}
+
+.card:hover img{
+    filter: brightness(80%);
+}
+.card:hover p{
+    color: rgb(28, 108, 108);
+    font-family: var(fontFam2);
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+   .card{
+    margin-top: 30px;
+   }
+   
+  }
