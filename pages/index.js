@@ -1,4 +1,5 @@
 import Banner from "../components/banner/Banner";
+import BrandLogo from "../components/section/BrandLogo";
 import Section2 from "../components/section/Section2";
 import Services from "../components/section/Services";
 import Testimonials from "../components/section/Testimonials";
@@ -19,6 +20,7 @@ export default function Home() {
       <div className="mt-5"></div>
       <Hr />
       <Testimonials />
+      <BrandLogo />
       <ContactFixed />
     </div>
   );

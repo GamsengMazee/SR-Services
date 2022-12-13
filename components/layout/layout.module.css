@@ -3,12 +3,13 @@
   position: fixed;
   top: 0;
   left: 0;
+  background-color: #389E92;
   z-index: 98;
-  background-color: rgb(62, 200, 251);
   transition: background-color 1s ease-in-out;
+  box-shadow: 0 0 10px 0 #286962;
 }
 .darkNav{
-  background-color: rgb(62, 200, 251);
+  background-color: #389E92;
 }
 .lightNav{
   background-color: rgb(40, 38, 38);

@@ -3,7 +3,8 @@ import { useEffect } from "react";
 import Layout from "../components/layout/layout";
 import Footer from "../components/footer/Footer";
 import "../styles/globals.css";
-import "../node_modules/react-responsive-carousel/lib/styles/carousel.css"
+import "../node_modules/react-responsive-carousel/lib/styles/carousel.css";
+
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
